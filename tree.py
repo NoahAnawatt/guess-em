@@ -27,7 +27,7 @@ tree.plot_tree(clf,
                feature_names = x_leg.columns.tolist(),
                class_names = label.classes_.tolist(),
                filled = True,
-               fontsize = 7
+               fontsize = 3
                )
 plt.show()
 
